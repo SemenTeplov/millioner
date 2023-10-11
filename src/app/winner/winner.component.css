@@ -1,0 +1,24 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+div {
+    padding: 5px;
+}
+
+.dec {
+    margin-right: 50px;
+}
+.one {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.aside {
+    color: #ffbb00;
+    width: 200px;
+    margin-left: 80%;
+}
+.active {
+    border: 2px solid #ffbb00;
+}

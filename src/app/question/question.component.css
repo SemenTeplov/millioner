@@ -1,0 +1,49 @@
+.container {
+
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+.question-img {
+    height: 100px;
+    width: 100vw;
+}
+.question-img--pos {
+    position: relative;
+    align-self: center;
+}
+.answer-img {
+    height: 100px;
+    width: 50vw;
+    cursor: pointer;
+}
+.text {
+    position: absolute;
+    width: 400px;
+    color: #fff;
+}
+.question {
+    bottom: 35%;
+    left: 30%;
+}
+.a {
+    bottom: 35%;
+    left: 20%;
+    cursor: pointer;
+}
+.b {
+    bottom: 35%;
+    left: 55%;
+    cursor: pointer;
+}
+.c {
+    bottom: 5%;
+    left: 20%;
+    cursor: pointer;
+}
+.d {
+    bottom: 5%;
+    left: 55%;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="question-img--pos">
+        <img class="question-img" src="../../assets/question_pole.png" alt="question">
+        <div class="text question">
+            <h3>{{listData[this.score].question}}</h3>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div (mouseenter)="action_a()" (mouseleave)="not_action_a()" (click)="ans_a()">
+            <img class="answer-img" src="{{answer_a}}" alt="answer A">
+            <div class="text a">
+                <h3>{{listData[this.score].a}}</h3>
+            </div>
+        </div>
+        <div (mouseenter)="action_b()" (mouseleave)="not_action_b()" (click)="ans_b()">
+            <img class="answer-img" src="{{answer_b}}" alt="answer B">
+            <div class="text b">
+                <h3>{{listData[this.score].b}}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div (mouseenter)="action_c()" (mouseleave)="not_action_c()" (click)="ans_c()">
+            <img class="answer-img" src="{{answer_c}}" alt="answer C">
+            <div class="text c">
+                <h3>{{listData[this.score].c}}</h3>
+            </div>
+        </div>
+        <div (mouseenter)="action_d()" (mouseleave)="not_action_d()" (click)="ans_d()">
+            <img class="answer-img" src="{{answer_d}}" alt="answer D">
+            <div class="text d">
+                <h3>{{listData[this.score].d}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
